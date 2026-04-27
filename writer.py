@@ -19,7 +19,7 @@ class DiaryWriter:
                     if choice != 'y':
                         keep_typing = False
 
-            print(f"\Your thoughts are tucked away in {self.heart_file}!")
+            print(f"\nYour thoughts are tucked away in {self.heart_file}!")
 
         except Exception as e:
             print(f"Oopsie! Something went wrong: {e}")
